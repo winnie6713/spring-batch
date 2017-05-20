@@ -1,0 +1,88 @@
+package com.wyy.vo;
+
+public class IventionPatent {
+	private String id;
+	private String docnum;
+	private String pubdate;
+	private String appldate;
+	private String classipcr;
+	private String title;
+	private String paastract;
+	private String applicant;
+	private String address;
+	private String inventor;
+	private String pictures;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getDocnum() {
+		return docnum;
+	}
+	public void setDocnum(String docnum) {
+		this.docnum = docnum;
+	}
+	public String getPubdate() {
+		return pubdate;
+	}
+	public void setPubdate(String pubdate) {
+		this.pubdate = pubdate;
+	}
+	public String getAppldate() {
+		return appldate;
+	}
+	public void setAppldate(String appldate) {
+		this.appldate = appldate;
+	}
+	public String getClassipcr() {
+		return classipcr;
+	}
+	public void setClassipcr(String classipcr) {
+		this.classipcr = classipcr;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getPaastract() {
+		return paastract;
+	}
+	public void setPaastract(String paastract) {
+		this.paastract = paastract;
+	}
+	public String getApplicant() {
+		return applicant;
+	}
+	public void setApplicant(String applicant) {
+		this.applicant = applicant;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getInventor() {
+		return inventor;
+	}
+	public void setInventor(String inventor) {
+		this.inventor = inventor;
+	}
+	@Override
+	public String toString() {
+		return "IventionPatent [id=" + id + ", docnum=" + docnum + ", pubdate=" + pubdate + ", appldate=" + appldate
+				+ ", classipcr=" + classipcr + ", title=" + title + ", paastract=" + paastract + ", applicant="
+				+ applicant + ", address=" + address + ", inventor=" + inventor + "]";
+	}
+	public String getPictures() {
+		return pictures;
+	}
+	public void setPictures(String pictures) {
+		this.pictures = pictures;
+	}
+
+}
